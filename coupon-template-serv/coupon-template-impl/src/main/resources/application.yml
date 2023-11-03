@@ -1,0 +1,40 @@
+# The project's start port
+server:
+  port: 20000
+  error:
+    include-message: always
+
+spring:
+  application:
+    # Define the project name
+    name: coupon-template-serv
+  datasource:
+    # Mysql Data Source
+    username: root
+    password: woshishen94SHEN
+    url: jdbc:mysql://127.0.0.1:3306/coupon_db?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL
+          =false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # connection pool
+    hikari:
+      pool-name: CouponHikari
+      connection-timeout: 5000
+      idle-timeout: 30000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      max-lifetime: 60000
+      auto-commit: true
+  jpa:
+    show-sql: true
+    hibernate:
+      # It is all none in production to prevent the ddl structure from being automatically executed
+      ddl-auto: none
+    properties:
+      hibernate.format_sql: true
+      hibernate.show_sql: true
+    open-in-view: false
+
+logging:
+  level:
+    com.broadview.coupon: debug

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/coupon-template-serv/coupon-calculation-serv.iml" filepath="$PROJECT_DIR$/coupon-template-serv/coupon-calculation-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-serv (1) (org.example).iml" filepath="$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-serv (1) (org.example).iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-customer-serv/coupon-customer-serv.iml" filepath="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-middleware-serv/coupon-middleware-serv.iml" filepath="$PROJECT_DIR$/coupon-middleware-serv/coupon-middleware-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coupon-platform.iml" filepath="$PROJECT_DIR$/.idea/coupon-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-template-api/coupon-template-api.iml" filepath="$PROJECT_DIR$/coupon-template-api/coupon-template-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-template-dao/coupon-template-dao.iml" filepath="$PROJECT_DIR$/coupon-template-dao/coupon-template-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coupon-template-impl/coupon-template-impl.iml" filepath="$PROJECT_DIR$/coupon-template-impl/coupon-template-impl.iml" />
+    </modules>
+  </component>
+</project>
